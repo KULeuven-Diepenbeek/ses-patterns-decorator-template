@@ -1,14 +1,14 @@
 # SES Patterns: Decorator
 
-Oefening voor https://brainbaking.com/teaching/ses/decorator
+Oefening voor https://kuleuven-diepenbeek.github.io/ses-course/patterns/decorator
 
 ## Technologie
 
-Dit is een [gradle project](https://brainbaking.com/teaching/ses/gradle).
+Dit is een [gradle project](https://kuleuven-diepenbeek.github.io/ses-course/dependency-management/).
 
 ## Opgave
 
-1. Dit project bevat het wagenpark voorbeeld van de [labo noties](https://brainbaking.com/teaching/ses/decorator). Hier dien je de volgende dingen nog aan te wijzigen:
+1. Dit project bevat het wagenpark voorbeeld van de [labo noties](https://kuleuven-diepenbeek.github.io/ses-course/patterns/decorator/). Hier dien je de volgende dingen nog aan te wijzigen:
     - Voorzie in de `main()` methode een nieuwe decorator instantie en geef die mee met de factory. Kijk in de output wat er gebeurt.
     - Maak een nieuwe auto implementatie aan, `VWPolo`. Geef de decorator een Golf en Polo mee. Nu maken we plots iets hoger niveau budget wagens!
     - Voorzie een eigen, statische decorator klasse, genaamd `PoloGolfDecorator`, die altijd bovenstaande wagens (Polo en Golf) combineert. Wat zit er in de klasse? Hoe implementeer je `assemble()`?
